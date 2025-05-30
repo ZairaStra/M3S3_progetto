@@ -33,7 +33,7 @@ const Sidebar = () => {
                 <HouseDoorFill className="me-2 icons" />
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="/" className="d-flex align-items-center py-3 nav-link">
+              <Nav.Link as={Link} to="/favourites" className="d-flex align-items-center py-3 nav-link">
                 <BookFill className="me-2 icons" />
                 Your Library
               </Nav.Link>

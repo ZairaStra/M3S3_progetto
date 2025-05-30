@@ -26,9 +26,6 @@ const Homepage = () => {
                 <Nav.Link as={Link} to="/discover" onClick={(e) => e.preventDefault()}>
                   DISCOVER
                 </Nav.Link>
-                <Nav.Link as={Link} to="/favourites">
-                  FAVOURITES
-                </Nav.Link>
               </Nav>
             </Col>
           </Row>
