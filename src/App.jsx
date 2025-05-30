@@ -4,6 +4,7 @@ import Sidebar from "./components/Sidebar";
 import Homepage from "./components/Homepage";
 import ResultsPage from "./components/Results";
 import Favourites from "./components/Favourites";
+import Player from "./components/Player";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         {/*  <Route path="/:company" element={<CompanySearchResults />} />
         <Route path="/favourites" element={<Favourites />} /> */}
       </Routes>
+      <Player />
     </BrowserRouter>
   );
 }

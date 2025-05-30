@@ -122,13 +122,13 @@ body {
   margin-right: 10%;
 }
 
-.playerControls a img {
+.player-btn-icon {
   width: 14px;
   margin-top: 1rem;
   filter: brightness(60%);
 }
 
-.playerControls a:hover {
+.player-btn-icon a:hover {
   filter: brightness(80%);
   color: #282828 !important;
 }
